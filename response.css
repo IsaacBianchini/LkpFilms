@@ -1,4 +1,283 @@
+@media screen and (max-width: 1700px) {
+ 
+  .divVideosPropagandaPai{
+    height: 60vh;
+  }
 
-@media screen and (max-width: 500px) {
+  .divButtonVoltarPai{
+    height: 65vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 65vh;
+  }
+
+}
+
+@media screen and (max-width: 1638px) {
+  
+  .divVideosPropagandaPai{
+    height: 55vh;
+  }
+
+  .divButtonVoltarPai{
+    height: 60vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 60vh;
+  }
+
+}
+
+@media screen and (max-width: 1517px) {
+  
+  .divVideosPropagandaPai{
+    height: 45vh;
+  }
+
+  .divButtonVoltarPai{
+    height: 50vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 50vh;
+  }
+
+}
+
+@media screen and (max-width: 1380px) {
+  
+  .divBodyApresentacaoFinalPai{
+    background-color: rgb(247,247,248);   
+    width: 100%;
+    height: 116vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .divGraficoFilho{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;
+}
+
+  .divTextoGrafico{
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+
+}
+
+@media screen and (max-width: 1250px) {
+
+  .divVideosPropagandaPai{
+    height: 40vh;
+  }
+
+  .divButtonVoltarPai{
+    height: 45vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 45vh;
+  }
+
+}
+
+@media screen and (max-width: 1140px) {
+  
+  .divVideosPropagandaPai{
+    height: 30vh;
+  }
+
+  .divButtonVoltarPai{
+    height: 35vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 35vh;
+  }
+
+}
+
+
+@media screen and (max-width: 1070px) {
+  
+  .divFooterApresentacaoPai{  
+    height: 80vh;  
+}
+
+.divFooterApresentacaoFilho{   
+    width: 80%;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.divLblApresentacaoTitulo{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+  .lblFooterApresentacaoTitulo{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff;
+}
+
+.lblFooterApresentacaoTexto{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+}
+
+}
+
+@media screen and (max-width: 1030px) {
+  .divBodyApresentacaoPai{
+    height: 140vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divBodyApresentacaoFilho{
+    width: 100%;   
+    text-align: center;
+   
+  }
+
+  .divVideosPropagandaPai{
+    width: 80%;
+    height: 60vh;
   
   }
+
+  .divButtonVoltarPai{
+    height: 65vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 65vh;
+  }
+
+}
+
+@media screen and (max-width: 820px) {
+  .divBodyApresentacaoPai{
+    height: 110vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divBodyApresentacaoFilho{
+    width: 100%;   
+    max-height: 500px;
+    text-align: center;
+    word-wrap: break-word;
+   
+    overflow: hidden;
+  }
+
+  .lblBodyApresentacaoTitulo{
+    font-family: "Playfair Display", serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 4.5vw;
+    color: #000;
+}
+
+.lblBodyApresentacaoTexto{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 3.5vw;
+}
+
+  .divVideosPropagandaPai{
+    width: 80%;
+    height: 40vh;
+    text-align: center;
+  }
+
+  .divButtonVoltarPai{
+    height: 45vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 45vh;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+   
+  .lblBodyGraficoTitulo{
+    font-size: 4.5vw;
+}
+
+  .lblBodyGraficoTexto{
+  font-size: 3.5vw;
+  }
+
+  img{
+    width: 340px;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  
+  .lblFooterApresentacaoTitulo{   
+    font-size: 4.5vw;    
+}
+
+.lblFooterApresentacaoTexto{  
+    font-size: 3.0vw;    
+}
+
+.lblFooterApresentacaoTituloTopico{
+  font-size: 3.5vw;   
+}
+
+.lblFooterApresentacaoTopicoTexto{
+  font-size: 2.5vw;    
+}
+
+}
+
+@media screen and (max-width: 550px) {
+  
+  .divVideosPropagandaPai{
+    width: 80%;
+    height: 25vh;
+    text-align: center;
+  }
+
+  .divButtonVoltarPai{
+    height: 30vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 30vh;
+  }
+
+}
