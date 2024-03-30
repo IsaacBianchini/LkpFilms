@@ -63,3 +63,98 @@
   font-size: 22px;
   color: #fff;
 }
+.divBodyMensagemPai {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.divBodyMensagemFilho {
+  width: 60%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.lblMensagemTitulo {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 22px;
+  color: #000;
+}
+
+.lblMensagemTexto {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 18px;
+  color: #000;
+}
+.divBodyFormularioPai {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.divTexto {
+  width: 80%;
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.divBodyFormularioFilho {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.divFormulario {
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.divHeaderFormulario {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.divHeaderFormulario input {
+  height: 40px;
+}
+
+.divBodyFormulario {
+  width: 70%;
+  height: 100px;
+  font-size: 24px;
+}
+
+.divBodyFormulario input {
+  height: 40px;
+  width: 100%;
+}
+
+.divFooterFormulario {
+  width: 72%;
+  height: 100px;
+  font-size: 24px;
+}
+
+.divFooterFormulario input {
+  height: 40px;
+  width: 100%;
+}
