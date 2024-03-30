@@ -76,6 +76,17 @@
 
 @media screen and (max-width: 1250px) {
 
+  .divlblBodyApresentacaoTitulo{   
+    height: 60vh; 
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+  .lblBodyApresentacaoTitulo{
+    font-size: 42px;
+    color: #000;
+  }
+
   .divVideosPropagandaPai{
     height: 40vh;
   }
@@ -189,18 +200,15 @@
 
   .divBodyApresentacaoFilho{
     width: 100%;   
-    max-height: 500px;
-    text-align: center;
-    word-wrap: break-word;
-   
-    overflow: hidden;
+    height: 45vh; 
+    text-align: center;  
   }
 
   .lblBodyApresentacaoTitulo{
     font-family: "Playfair Display", serif;
     font-weight: weight;
     font-style: normal;
-    font-size: 4.5vw;
+    /* font-size: 4.5vw; */
     color: #000;
 }
 
@@ -245,27 +253,94 @@
 
 
 @media screen and (max-width: 760px) {
+
+  .lblBodyApresentacaoTitulo{
+    font-size: 38px;
+    color: #000;
+  }
   
+  .lblBodyApresentacaoTexto{
+    font-size: 24px;
+    color: #000;
+  }
+
   .lblFooterApresentacaoTitulo{   
     font-size: 4.5vw;    
-}
+  }
 
-.lblFooterApresentacaoTexto{  
+  .lblFooterApresentacaoTexto{  
     font-size: 3.0vw;    
 }
 
-.lblFooterApresentacaoTituloTopico{
-  font-size: 3.5vw;   
-}
+  .lblFooterApresentacaoTituloTopico{
+    font-size: 3.5vw;   
+  }
 
-.lblFooterApresentacaoTopicoTexto{
-  font-size: 2.5vw;    
-}
+  .lblFooterApresentacaoTopicoTexto{
+    font-size: 2.5vw;    
+  }
 
 }
 
 @media screen and (max-width: 550px) {
   
+  .divBodyApresentacaoPai{   
+    justify-content: center;
+  }
+
+  .divBodyApresentacaoFilho{  
+    height: 45vh;     
+  }
+
+  .divlblBodyApresentacaoTitulo{  
+    height: 100%;        
+  }
+
+  .lblBodyApresentacaoTitulo{    
+    font-size: 32px;  
+  }
+
+  .lblBodyApresentacaoTexto{   
+    font-size: 22px;   
+  }
+
+  .divVideosPropagandaPai{
+    width: 80%;
+    height: 25vh;
+    text-align: center;
+  }
+
+  .divButtonVoltarPai{
+    height: 30vh;
+  }
+
+  .divVideosPropagandaFilho{
+    height: 30vh;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+  
+  .divBodyApresentacaoFilho{  
+    height: 55vh;     
+  }
+
+
+  .divlblBodyApresentacaoTitulo{  
+    width: 100%;   
+    text-align: left;
+    padding: 10px;
+  }
+
+  .lblBodyApresentacaoTitulo{    
+    font-size: 38px;  
+  }
+
+  .lblBodyApresentacaoTexto{   
+    font-size: 22px;   
+  }
+
   .divVideosPropagandaPai{
     width: 80%;
     height: 25vh;
