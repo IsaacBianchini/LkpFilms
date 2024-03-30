@@ -233,7 +233,7 @@
 
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 942px) {
   
   .divGraficoFilho{
     width: 100%;   
@@ -241,6 +241,7 @@
 
   .divTextoGrafico{
     width: 100%;   
+  
   }
 
   .lblBodyGraficoTitulo{
@@ -254,6 +255,11 @@
   img{
     width: 340px;
   }
+
+  .divTextoPrivacidadeFilho{
+    width: 100%;
+}
+
 }
 
 
