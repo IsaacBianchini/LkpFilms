@@ -1,299 +1,298 @@
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.divHeaderPai{
-    background-color: rgb(36,28,21);
-    width: 100%;
-    height: 60px;   
-    display: flex;
-    justify-content: center;
+.divHeaderPai {
+  background-color: rgb(36, 28, 21);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
 }
 
-.divHeaderFilho{
-    height: 60px;
-    display: flex;   
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.divHeaderFilho {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.lblHeaderTitulo{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 15px;
-    color: #fff;
+.lblHeaderTitulo {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+  color: #fff;
 }
 
-.aPainelPedir{
-    color: #fff;
+.aPainelPedir {
+  color: #fff;
 }
 
-.divBodyApresentacaoPai{
-    background-color: #f6f6f4;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+.divBodyApresentacaoPai {
+  background-color: #f6f6f4;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divBodyApresentacaoFilho{
-    width: 50%;
-    height: 45vh;   
-    display: flex;
-    justify-content: center;     
+.divBodyApresentacaoFilho {
+  width: 50%;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
 }
 
-.divVideosPropagandaPai{
-    width: 40%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-   
+.divVideosPropagandaPai {
+  width: 40%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
 }
 
-.divButtonVoltarPai{   
-    width: 100%;
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.divButtonVoltarPai {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-
-.divButtonVoltarFilho{  
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+.divButtonVoltarFilho {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .divButton {
-    background-color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
 
-.divVideosPropagandaFilho{
-    width: 50%;
-    height: 75vh;
-    background-color: transparent;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: center;
+.divVideosPropagandaFilho {
+  width: 50%;
+  height: 75vh;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
-.divlblBodyApresentacaoTitulo{
-    width: 70%;
-    height: 45vh; 
-    word-wrap: break-word;
+.divlblBodyApresentacaoTitulo {
+  width: 70%;
+  height: 45vh;
+  word-wrap: break-word;
 }
 
-.lblBodyApresentacaoTitulo{
-    font-family: "Playfair Display", serif;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 47px;
-    color: #000;
+.lblBodyApresentacaoTitulo {
+  font-family: "Playfair Display", serif;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 47px;
+  color: #000;
 }
 
-.lblBodyApresentacaoTexto{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 24px;   
+.lblBodyApresentacaoTexto {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 24px;
 }
 
-.divFooterApresentacaoPai{
-    background-color: rgb(36,28,21);
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
+.divFooterApresentacaoPai {
+  background-color: rgb(36, 28, 21);
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
 }
 
-.divFooterApresentacaoFilho{   
-    width: 60%;
-    height: 60vh; 
-    display: flex;
+.divFooterApresentacaoFilho {
+  width: 60%;
+  height: 60vh;
+  display: flex;
 }
 
-.divLblApresentacaoTitulo{
-    width: 50%;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.divLblApresentacaoTitulo {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.lblFooterApresentacaoTitulo{
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 35px;
-    color: #fff;
+.lblFooterApresentacaoTitulo {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  color: #fff;
 }
 
-.lblFooterApresentacaoTexto{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 24px;
-    color: #fff;
+.lblFooterApresentacaoTexto {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 24px;
+  color: #fff;
 }
 
-.divLblApresentacaoTopicosPai{
-    width: 50%;
-    height: 80%;       
-    display: flex;
-    align-items: center;
-    padding-left: 100px;
+.divLblApresentacaoTopicosPai {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
 }
 
-.divLblApresentacaoTopicosFilho{
-    width: 100%;    
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;  
+.divLblApresentacaoTopicosFilho {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.lblFooterApresentacaoTituloTopico{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 28px;
-    color: #fff;
+.lblFooterApresentacaoTituloTopico {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  color: #fff;
 }
 
-.lblFooterApresentacaoTopicoTexto{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 20px;
-    color: #fff;
+.lblFooterApresentacaoTopicoTexto {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
 }
 
-.divBodyApresentacaoFinalPai{
-    background-color: #fff;   
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.divBodyApresentacaoFinalPai {
+  background-color: #fff;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.divBodyApresentacaoFinalFilho{    
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    font-size: 22px;
+.divBodyApresentacaoFinalFilho {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 22px;
 }
 
-.divGraficoPai{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+.divGraficoPai {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divGraficoFilho{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
+.divGraficoFilho {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.divImgGrafico{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.divImgGrafico {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divTextoGrafico{
-    width: 50%;
-    padding-top: 80px;
+.divTextoGrafico {
+  width: 50%;
+  padding-top: 80px;
 }
 
-.lblBodyGraficoTitulo{
-    font-family: "Playfair Display", serif;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 42px;
+.lblBodyGraficoTitulo {
+  font-family: "Playfair Display", serif;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 42px;
 }
 
-.lblBodyGraficoTexto{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 27px; 
+.lblBodyGraficoTexto {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 27px;
 }
 
-.divLinha{
-    background-color: #000;
-    width: 100%;
-    height: 1px;
+.divLinha {
+  background-color: #000;
+  width: 100%;
+  height: 1px;
 }
 
-.divPrivacidade{
-    padding-top: 10px;
-    width: 100%;
-    height: 40vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;  
-    font-size: 20px;
+.divPrivacidade {
+  padding-top: 10px;
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
 }
 
-.divIconsRedeSocialPai{
-    display: flex;
-    justify-content: center;
+.divIconsRedeSocialPai {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.divIconsRedeSocialFilho{   
-    width: 10%;
-    display: flex;
-    justify-content: space-between;    
+.divIconsRedeSocialFilho {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
-.divTextoPrivacidadePai{
-    display: flex;
-    justify-content: center;
+.divTextoPrivacidadePai {
+  display: flex;
+  justify-content: center;
 }
 
-.divTextoPrivacidadeFilho{
-    width: 50%;
+.divTextoPrivacidadeFilho {
+  width: 50%;
 }
 
-p{
-    font-size: 14px;
+p {
+  font-size: 14px;
 }
 
-a{
-    color: #000;
-    font-weight: bold;
+a {
+  color: #000;
+  font-weight: bold;
 }
