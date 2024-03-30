@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKP-Films</title>
+</head>
+<body>
+    <div class="divHeaderPai">
+        <div class="divHeaderFilho">
+            <label class="lblHeaderTitulo">Economize 50%</label>             
+            <label class="lblHeaderTitulo">– oferta por tempo limitado. <a class="aPainelPedir" href="">Peça já o seu vídeo</a> </label>                
+        </div>     
+    </div>
+
+    <button onclick="enviarEmail()">Enviar Email</button>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function enviarEmail() {
+            // Email.send({
+            //     SecureToken: "3DFBAB1BE1FEDCE1AB4F4DF412F02B2EACCADBD8F4955EC29E82E7DF37A52AEB9975F6D936841A73CC3CADE961B9F8BB",
+            //     To: 'isaac.bianchini.ribeiro@escola.pr.gov.br', // Destinatário
+            //     From: 'isaacbr871@gmail.com', // Remetente
+            //     Subject: 'Assunto do E-mail',
+            //     Body: 'Conteúdo do E-mail'
+            // }).then(
+            //     message => alert("Email enviado com sucesso!")
+            // );
+
+            Email.send({
+            SecureToken : "32594351-e5bc-493a-966b-33f2db7eb764",
+            To : 'isaacbr871@gmail.com',
+            From : "isaac.bianchini.ribeiro@escola.pr.gov.br",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+
+        }
+    </script>
+</body>
+</html>
