@@ -388,6 +388,12 @@
   }
 }
 
+@media screen and (max-width: 510px) {
+  .divLblApresentacaoTopicosFilho {
+    padding-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .lblFooterApresentacaoTitulo {
     font-size: 22px;
@@ -421,5 +427,22 @@
 
   .lblFooterApresentacaoTopicoTexto {
     font-size: 1vh;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .divTextoGrafico {
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-bottom: 80px;
+    height: 140vh;
+  }
+
+  .lblBodyGraficoTitulo {
+    font-size: 28px;
+  }
+
+  .lblBodyGraficoTexto {
+    font-size: 18px;
   }
 }
