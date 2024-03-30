@@ -121,7 +121,7 @@
 @media screen and (max-width: 1070px) {
   
   .divFooterApresentacaoPai{  
-    height: 80vh;  
+    height: 80vh;      
 }
 
 .divFooterApresentacaoFilho{   
@@ -129,7 +129,7 @@
     height: 60vh; 
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 40px;    
 }
 
 .divLblApresentacaoTitulo{
@@ -137,8 +137,7 @@
     height: 40vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  
+    justify-content: center;  
 }
 
   .lblFooterApresentacaoTitulo{
@@ -170,8 +169,7 @@
 
   .divBodyApresentacaoFilho{
     width: 100%;   
-    text-align: center;
-   
+    text-align: center;   
   }
 
   .divVideosPropagandaPai{
@@ -240,10 +238,10 @@
    
   .lblBodyGraficoTitulo{
     font-size: 4.5vw;
-}
+  }
 
   .lblBodyGraficoTexto{
-  font-size: 3.5vw;
+    font-size: 3.5vw;
   }
 
   img{
@@ -265,19 +263,39 @@
   }
 
   .lblFooterApresentacaoTitulo{   
-    font-size: 4.5vw;    
+    font-size: 32px;    
   }
 
   .lblFooterApresentacaoTexto{  
-    font-size: 3.0vw;    
-}
+    font-size: 21px; 
+  }
 
   .lblFooterApresentacaoTituloTopico{
-    font-size: 3.5vw;   
+    font-size: 25px;     
   }
 
   .lblFooterApresentacaoTopicoTexto{
-    font-size: 2.5vw;    
+    font-size: 20px; 
+  }
+
+}
+
+@media screen and (max-width: 637px) {
+    
+  .lblFooterApresentacaoTitulo{   
+    font-size: 28px;    
+  }
+
+  .lblFooterApresentacaoTexto{  
+    font-size: 19px; 
+  }
+
+  .lblFooterApresentacaoTituloTopico{
+    font-size: 22px;     
+  }
+
+  .lblFooterApresentacaoTopicoTexto{
+    font-size: 18px; 
   }
 
 }
@@ -318,6 +336,22 @@
     height: 30vh;
   }
 
+  .lblFooterApresentacaoTitulo{   
+    font-size: 26px;    
+  }
+
+  .lblFooterApresentacaoTexto{  
+    font-size: 18px; 
+  }
+
+  .lblFooterApresentacaoTituloTopico{
+    font-size: 22px;     
+  }
+
+  .lblFooterApresentacaoTopicoTexto{
+    font-size: 17px; 
+  }
+
 }
 
 @media screen and (max-width: 430px) {
@@ -353,6 +387,62 @@
 
   .divVideosPropagandaFilho{
     height: 30vh;
+  }
+
+  .lblFooterApresentacaoTitulo{   
+    font-size: 24px;    
+  }
+
+  .lblFooterApresentacaoTexto{  
+    font-size: 17px; 
+  }
+
+  .lblFooterApresentacaoTituloTopico{
+    font-size: 22px;     
+  }
+
+  .lblFooterApresentacaoTopicoTexto{
+    font-size: 17px; 
+  }
+
+}
+
+@media screen and (max-width: 410px) {
+  
+  .lblFooterApresentacaoTitulo{   
+    font-size: 22px;    
+  }
+
+  .lblFooterApresentacaoTexto{  
+    font-size: 16px; 
+  }
+
+  .lblFooterApresentacaoTituloTopico{
+    font-size: 20px;     
+  }
+
+  .lblFooterApresentacaoTopicoTexto{
+    font-size: 16px; 
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+  
+  .lblFooterApresentacaoTitulo{   
+    font-size: 3vh;    
+  }
+
+  .lblFooterApresentacaoTexto{  
+    font-size: 1.5vh
+  }
+
+  .lblFooterApresentacaoTituloTopico{
+    font-size: 2vh;       
+  }
+
+  .lblFooterApresentacaoTopicoTexto{
+    font-size: 1.5vh
   }
 
 }
