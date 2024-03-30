@@ -286,6 +286,8 @@ body {
 
 .divTextoPrivacidadeFilho {
   width: 50%;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 p {
