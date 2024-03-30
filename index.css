@@ -48,7 +48,6 @@ body{
     height: 45vh;   
     display: flex;
     justify-content: center;     
-   
 }
 
 .divVideosPropagandaPai{
@@ -98,15 +97,16 @@ body{
 }
 
 .divlblBodyApresentacaoTitulo{
-    width: 60%;
-    height: 45vh;  
+    width: 70%;
+    height: 45vh; 
+    word-wrap: break-word;
 }
 
 .lblBodyApresentacaoTitulo{
     font-family: "Playfair Display", serif;
     font-weight: weight;
     font-style: normal;
-    font-size: 42px;
+    font-size: 47px;
     color: #000;
 }
 
@@ -115,7 +115,7 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    font-size: 27px;   
+    font-size: 24px;   
 }
 
 .divFooterApresentacaoPai{
