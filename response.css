@@ -407,14 +407,14 @@
 
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 500px) {
   
   .lblFooterApresentacaoTitulo{   
     font-size: 22px;    
   }
 
   .lblFooterApresentacaoTexto{  
-    font-size: 16px; 
+    font-size: 17px; 
   }
 
   .lblFooterApresentacaoTituloTopico{
@@ -422,7 +422,7 @@
   }
 
   .lblFooterApresentacaoTopicoTexto{
-    font-size: 16px; 
+    font-size: 17px; 
   }
 
 }
@@ -442,7 +442,7 @@
   }
 
   .lblFooterApresentacaoTopicoTexto{
-    font-size: 1.5vh
+    font-size: 1vh
   }
 
 }
