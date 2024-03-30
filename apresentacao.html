@@ -30,22 +30,55 @@
       </div>
     </div>
 
-    <div>
-      <label>ENVIE SUA MENSAGEM</label>
-      <label
-        >Entre em contato com nossa equipe através do nosso Email
-        <br />
-        preenchendo o formulário de contato a seguir.
-      </label>
-    </div>
-
-    <button onclick="enviarEmail()">Enviar Email</button>
-
-    <div
-      class="g-recaptcha"
-      data-sitekey="6LeJoKkpAAAAALLOy3s0nNWuTv4Li9XZJ6YaA6VL"
-    ></div>
-
+    <div style="display: flex">
+      <div class="divBodyMensagemPai">
+        <div class="divBodyMensagemFilho">
+          <label class="lblMensagemTitulo">ENVIE SUA MENSAGEM</label>
+          <br />
+          <label class="lblMensagemTexto"
+            >Entre em contato com nossa equipe através do nosso Email
+            <br />
+            preenchendo o formulário de contato a seguir.
+          </label>
+        </div>
+      </div>
+      <div class="divBodyFormularioPai">
+        <div class="divTexto">
+          <label class="lblMensagemTitulo"
+            >ENVIE UMA MENSAGEM PARA O NOSSO EMAIL</label
+          >
+        </div>
+        <div class="divBodyFormularioFilho">
+          <div class="divFormulario">
+            <div class="divHeaderFormulario">
+              <div style="display: flex; flex-direction: column">
+                <label>Nome *</label>
+                <input type="text" required />
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <label>Email *</label>
+                <input type="email" required /> <!-- Adicionado o atributo required -->
+              </div>
+            </div>
+            <div class="divBodyFormulario">
+              <div style="display: flex; flex-direction: column; width: 100%">
+                <label>Negócio (Se tiver) *</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="divFooterFormulario">
+              <div style="display: flex; flex-direction: column; width: 100%">
+                <label>Mensagem *</label>
+                <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea>
+              </div>
+            </div>
+            <br />
+            <div class="g-recaptcha" data-sitekey="6LeJoKkpAAAAALLOy3s0nNWuTv4Li9XZJ6YaA6VL"></div>
+            <br />
+            <input type="submit" value="Enviar" />
+          </div>
+        </div>
+        
     <br />
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
