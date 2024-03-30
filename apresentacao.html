@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="response.css" />
+    <link rel="stylesheet" href="apresentacaoCss.css" />
     <title>LKP-Films</title>
   </head>
   <body>
@@ -18,8 +19,36 @@
       </div>
     </div>
 
+    <div class="divHeaderEntreEmContatoPai">
+      <div class="divHeaderEntreEmContatoFilho">
+        <label class="lblHeaderEntreEmContatoTitulo">
+          ENTRE EM CONTATO CONOSCO
+        </label>
+        <label class="lblHeaderEntreEmContatoTexto">
+          Tire todas as suas dúvidas
+        </label>
+      </div>
+    </div>
+
+    <div>
+      <label>ENVIE SUA MENSAGEM</label>
+      <label
+        >Entre em contato com nossa equipe através do nosso Email
+        <br />
+        preenchendo o formulário de contato a seguir.
+      </label>
+    </div>
+
     <button onclick="enviarEmail()">Enviar Email</button>
 
+    <div
+      class="g-recaptcha"
+      data-sitekey="6LeJoKkpAAAAALLOy3s0nNWuTv4Li9XZJ6YaA6VL"
+    ></div>
+
+    <br />
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="apresentacaoScript.js"></script>
   </body>
