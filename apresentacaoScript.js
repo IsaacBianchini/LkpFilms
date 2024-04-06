@@ -52,6 +52,7 @@ function MensagemSucesso() {
 
     setTimeout(function () {
       mensagemSucesso.remove();
+      window.location.reload();
     }, 3000);
   }
 }
