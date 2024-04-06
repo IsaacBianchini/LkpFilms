@@ -1,16 +1,29 @@
+function verificarReCAPTCHA() {
+  var response = grecaptcha.getResponse();
+  if (response.length === 0) return false;
+  else return true;
+}
+
 document
   .getElementById("formulario")
   .addEventListener("submit", function (event) {
     event.preventDefault();
-    if (grecaptcha.getResponse() === "") {
-      document.getElementById("captcha-error").style.display = "block";
-    } else {
-      document.getElementById("captcha-error").style.display = "none";
-      EnviarEmail();
-    }
+    EnviarEmail();
+    if (verificarReCAPTCHA()) EnviarEmail();
+    else document.getElementById("captcha-error").style.display = "block";
   });
 
+function Carregar(visible) {
+  const overlay = document.getElementById("overlay");
+  const loader = document.getElementById("loader");
+
+  overlay.style.display = visible;
+  loader.style.display = visible;
+}
+
 function EnviarEmail() {
+  Carregar("block");
+
   let nome = document.getElementById("inputNome").value;
   let email = document.getElementById("inputEmail").value;
   let negocio = document.getElementById("inputNegocio").value;
@@ -23,5 +36,22 @@ function EnviarEmail() {
     From: "isaacbr871@gmail.com",
     Subject: "Formulário Lkp-Films (Entre-em-Contato)",
     Body: `Nome: ${nome} <br> Email: ${email} <br> Negócio: ${negocio} <br> Descrição: ${descricao}`,
-  }).then((message) => alert(message));
+  }).then((message) => MensagemSucesso());
+}
+
+function MensagemSucesso() {
+  Carregar("none");
+
+  document.querySelector(".divMensagemSucessoVisible").style.display = "block";
+  const mensagemSucesso = document.querySelector(".mensagemSucesso");
+
+  setTimeout(desaparecerMensagem, 3000);
+
+  function desaparecerMensagem() {
+    mensagemSucesso.classList.add("fadeOut");
+
+    setTimeout(function () {
+      mensagemSucesso.remove();
+    }, 3000);
+  }
 }
