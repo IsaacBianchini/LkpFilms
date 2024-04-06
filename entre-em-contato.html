@@ -63,13 +63,13 @@
       </div>
     </div>
 
-    <div class="divTopo" >
+    <div class="divTopo">
       <div class="divBodyMensagemPai">
         <div class="divBodyMensagemFilho">
           <label class="lblMensagemTitulo">ENVIE SUA MENSAGEM</label>
           <br />
-          <label class="lblMensagemTexto"
-            >Entre em contato com nossa equipe através do nosso Email
+          <label class="lblMensagemTexto">
+            Entre em contato com nossa equipe através do nosso Email
             <br />
             preenchendo o formulário de contato a seguir.
           </label>
@@ -77,54 +77,46 @@
       </div>
       <div class="divBodyFormularioPai">
         <div class="divTexto">
-          <label class="lblMensagemTitulo"
-            >ENVIE UMA MENSAGEM PARA O NOSSO EMAIL</label
-          >
+          <label class="lblMensagemTitulo">ENVIE UMA MENSAGEM PARA O NOSSO EMAIL</label>
         </div>
-        <div class="divBodyFormularioFilho">         
-          <div class="divFormulario">
-            <div class="divHeaderFormulario">
-              <div style="display: flex; flex-direction: column">
-                <label>Nome *</label>
-                <input type="text" required />
+       
+          <form id="formulario" class="divBodyFormularioFilho">
+            <div class="divFormulario">
+              <div class="divHeaderFormulario">
+                <div style="display: flex; flex-direction: column">
+                  <label>Nome *</label>
+                  <input type="text" id="inputNome" name="nome" required />
+                </div>
+                <div style="display: flex; flex-direction: column">
+                  <label>Email *</label>
+                  <input type="email" id="inputEmail" name="email" required />
+                </div>
               </div>
-              <div style="display: flex; flex-direction: column">
-                <label>Email *</label>
-                <input type="email" required />
+              <br />
+              <div class="divBodyFormulario">
+                <div style="display: flex; flex-direction: column; width: 100%">
+                  <label>Negócio (Se tiver) *</label>
+                  <input type="text" id="inputNegocio" name="negocio" />
+                </div>
               </div>
+              <br />
+              <div class="divFooterFormulario">
+                <div style="display: flex; flex-direction: column; width: 100%">
+                  <label>Mensagem *</label>
+                  <textarea id="textDescricao" name="descricao" rows="4" cols="50" required></textarea>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div class="g-recaptcha" data-sitekey="6LeJoKkpAAAAALLOy3s0nNWuTv4Li9XZJ6YaA6VL"></div>
+              <p id="captcha-error" style="color: red; display: none;">Por favor, verifique o reCAPTCHA.</p>
+              <br />
+              <button type="submit">ENVIAR</button>
             </div>
-            <br />
-            <div class="divBodyFormulario">
-              <div style="display: flex; flex-direction: column; width: 100%">
-                <label>Negócio (Se tiver) *</label>
-                <input type="text" />
-              </div>
-            </div>
-            <br />
-            <div class="divFooterFormulario">
-              <div style="display: flex; flex-direction: column; width: 100%">
-                <label>Mensagem *</label>
-                <textarea
-                  id="descricao"
-                  name="descricao"
-                  rows="4"
-                  cols="50"
-                  required
-                ></textarea>
-              </div>
-            </div>
-            <br />
-            <br />
-            <div
-              class="g-recaptcha"
-              data-sitekey="6LeJoKkpAAAAALLOy3s0nNWuTv4Li9XZJ6YaA6VL"
-            ></div>
-            <br />
-            <button type="submit">ENVIAR</button>
-          </div>
-        </div>
+          </form>        
       </div>
     </div>
+    
 
     <div>
     <div class="divFooterPai">
@@ -143,8 +135,7 @@
         <div class="divFooterTextoPrivacidadeFilho">
           <p>
             ©2023-2024 Todos
-            os direitos reservados. LKP-Films é marca registrada da
-            LKPP-Films.
+            os direitos reservados.
             <a href="">Privacidade</a> | <a href="">Termos</a> |
             <a href="">Avisos legais</a> |
             <a href="">Preferências de cookies</a>          
