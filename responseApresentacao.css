@@ -159,6 +159,12 @@
   }
 }
 
+@media screen and (max-width: 470px) {
+  .divHeaderEntreEmContatoFilho {
+    height: 50%;
+  }
+}
+
 @media screen and (max-width: 336px) {
   .divBodyFormularioPai {
     padding-top: 100px;
