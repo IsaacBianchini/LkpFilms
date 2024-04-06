@@ -1,0 +1,181 @@
+@media screen and (max-width: 1700px) {
+  .divBodyMensagemPai {
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .divHeaderFormulario {
+    width: 73%;
+  }
+}
+
+@media screen and (max-width: 1118px) {
+  .divHeaderFormulario {
+    width: 74%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .divHeaderFormulario {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .divHeaderFormulario {
+    width: 76%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .divHeaderFormulario {
+    width: 77%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .divHeaderFormulario {
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .divHeaderFormulario {
+    width: 79%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .divHeaderFormulario {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .divHeaderFormulario {
+    width: 81%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .divHeaderFormulario {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .divHeaderFormulario {
+    width: 72%;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .divTexto {
+    width: 100%;
+    justify-content: left;
+  }
+
+  .divBodyFormulario {
+    width: 65%;
+    height: 80px;
+  }
+
+  .divBodyFormularioPai {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .divFormulario {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .divTopo {
+    display: block;
+  }
+
+  .divBodyMensagemPai {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divBodyMensagemFilho {
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .divTexto {
+    width: 80%;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .divFormulario {
+    padding-top: 0;
+  }
+
+  .divFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 800px;
+    width: 100%;
+  }
+
+  .divBodyFormulario {
+    width: 72%;
+    height: 100px;
+  }
+
+  .divBodyFormulario input {
+    height: 30px;
+    width: 91%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .divHeaderEntreEmContatoPai {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .divBodyFormularioPai {
+    padding-top: 100px;
+    height: 980px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .divBodyFormularioPai {
+    padding-top: 140px;
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 184px) {
+  .divBodyFormularioPai {
+    padding-top: 120px;
+    height: 1020px;
+  }
+}
