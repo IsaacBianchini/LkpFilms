@@ -8,7 +8,6 @@ document
   .getElementById("formulario")
   .addEventListener("submit", function (event) {
     event.preventDefault();
-    EnviarEmail();
     if (verificarReCAPTCHA()) EnviarEmail();
     else document.getElementById("captcha-error").style.display = "block";
   });
@@ -53,6 +52,6 @@ function MensagemSucesso() {
     setTimeout(function () {
       mensagemSucesso.remove();
       window.location.reload();
-    }, 3000);
+    }, 2000);
   }
 }
