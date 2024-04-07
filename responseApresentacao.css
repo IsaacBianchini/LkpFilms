@@ -1,525 +1,187 @@
-@media screen and (max-width: 1175px) {
-  .divBodyApresentacaoFilho {
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 1430px) {
-  .divBodyApresentacaoFinalPai {
-    background-color: #fff;
-    width: 100%;
-    height: 880px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .divBodyApresentacaoFinalFilho {
-    width: 100%;
-    height: 880px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    font-size: 22px;
-  }
-
-  .divGraficoPai {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .divGraficoFilho {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .divImgGrafico {
+@media screen and (max-width: 1700px) {
+  .divBodyMensagemPai {
     width: 50%;
-    height: 100%;
+    height: 40vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
-
-  .divTextoGrafico {
-    width: 50%;
-    padding-top: 80px;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 1320px) {
-  .divFooterApresentacaoFilho {
-    width: 940px;
-    height: 520px;
-    display: flex;
+@media screen and (max-width: 1150px) {
+  .divHeaderFormulario {
+    width: 73%;
   }
 }
 
-@media screen and (max-width: 1080px) {
-  .divFooterApresentacaoFilho {
-    width: 940px;
-    height: 520px;
-    display: flex;
+@media screen and (max-width: 1118px) {
+  .divHeaderFormulario {
+    width: 74%;
   }
 }
 
-@media screen and (max-width: 1050px) {
-  .divBodyApresentacaoFinalPai {
-    background-color: #fff;
-    width: 100%;
-    height: 1100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 1100px) {
+  .divHeaderFormulario {
+    width: 75%;
   }
+}
 
-  .divBodyApresentacaoFinalFilho {
-    width: 100%;
-    height: 950px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    font-size: 22px;
+@media screen and (max-width: 1060px) {
+  .divHeaderFormulario {
+    width: 76%;
   }
+}
 
-  .divGraficoPai {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .divGraficoFilho {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .divImgGrafico {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .divTextoGrafico {
-    width: 100%;
-    height: 50%;
-    padding-top: 0;
+@media screen and (max-width: 1040px) {
+  .divHeaderFormulario {
+    width: 77%;
   }
 }
 
 @media screen and (max-width: 1020px) {
-  .divFooterApresentacaoFilho {
-    width: 940px;
-    height: 520px;
-    display: flex;
+  .divHeaderFormulario {
+    width: 78%;
   }
+}
 
-  .divLblApresentacaoTitulo {
-    width: 50%;
-    height: 40vh;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    overflow: hidden;
-    word-wrap: break-word;
-    padding-left: 10px;
+@media screen and (max-width: 1020px) {
+  .divHeaderFormulario {
+    width: 79%;
   }
+}
 
-  .divLblApresentacaoTopicosPai {
-    width: 50%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-left: 0;
-  }
-
-  .divLblApresentacaoTopicosFilho {
+@media screen and (max-width: 970px) {
+  .divHeaderFormulario {
     width: 80%;
-    height: 90%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .divHeaderFormulario {
+    width: 81%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .divHeaderFormulario {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .divHeaderFormulario {
+    width: 72%;
+    height: 185px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    flex-direction: column;
   }
-}
 
-@media screen and (max-width: 926px) {
-  .divBodyApresentacaoPai {
+  .divTexto {
     width: 100%;
-    height: 1300px;
-    background-color: #f6f6f4;
+    justify-content: left;
+  }
+
+  .divBodyFormulario {
+    width: 65%;
+    height: 80px;
+  }
+
+  .divBodyFormularioPai {
+    width: 100%;
+    height: 850px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    align-content: center;
   }
 
-  .divBodyApresentacaoFilho {
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    word-wrap: break-word;
-  }
-
-  .divVideosPropagandaPai {
-    width: 600px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .divButtonVoltarFilho {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 730px) {
-  .divFooterApresentacaoPai {
-    height: 600px;
-  }
-
-  .divLblApresentacaoTopicosPai {
-    height: 100%;
-  }
-
-  .divLblApresentacaoTopicosFilho {
+  .divFormulario {
     height: 100%;
   }
 }
 
-@media screen and (max-width: 667px) {
-  .divBodyApresentacaoFinalPai {
-    height: 1200px;
+@media screen and (max-width: 600px) {
+  .divTopo {
+    display: block;
   }
 
-  .divBodyApresentacaoFinalFilho {
-    height: 1050px;
-  }
-
-  .divTextoGrafico {
-    text-align: center;
-  }
-
-  .lblBodyGraficoTitulo {
-    font-size: 35px;
-  }
-
-  .lblBodyGraficoTexto {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .divVideosPropagandaPai {
-    width: 470px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .divVideosPropagandaFilho {
-    width: 300px;
-    height: 550px;
-  }
-
-  .divButtonVoltarPai {
+  .divBodyMensagemPai {
     width: 100%;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .divButtonVoltarFilho {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 621px) {
-  .divlblBodyApresentacaoTitulo {
-    width: 90%;
-    height: 400px;
-    word-wrap: break-word;
-  }
-
-  .lblBodyApresentacaoTitulo {
-    font-family: "Playfair Display", serif;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 40px;
-    color: #000;
-  }
-
-  .lblBodyApresentacaoTexto {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .divVideosPropagandaPai {
-    width: 500px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .divButtonVoltarPai {
-    width: 100%;
-    height: 570px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .divButtonVoltarFilho {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .divVideosPropagandaFilho {
-    width: 300px;
-    height: 570px;
-    background-color: transparent;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 567px) {
-  .divFooterApresentacaoPai {
-    display: flex;
-    justify-content: center;
-    height: 700px;
-  }
-
-  .divFooterApresentacaoFilho {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .divLblApresentacaoTitulo {
-    width: 97%;
-    height: 50%;
-  }
-
-  .divLblApresentacaoTopicosPai {
-    width: 100%;
-    height: 50%;
+    height: 30vh;
     display: flex;
     align-items: center;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .divFooterApresentacaoPai {
-    display: flex;
-    justify-content: center;
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 484px) {
-  .divBodyApresentacaoPai {
-    height: 1040px;
-  }
-
-  .divlblBodyApresentacaoTitulo {
-    padding-top: 40px;
-  }
-
-  .divVideosPropagandaPai {
-    width: 500px;
-    height: 500px;
-    display: flex;
     justify-content: center;
   }
 
-  .divButtonVoltarPai {
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .divButtonVoltarFilho {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .divVideosPropagandaFilho {
-    width: 250px;
-    height: 450px;
-    background-color: transparent;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: center;
-  }
-
-  .lblFooterApresentacaoTitulo {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-    color: #fff;
-  }
-
-  .lblFooterApresentacaoTexto {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 22px;
-    color: #fff;
-  }
-
-  .lblFooterApresentacaoTituloTopico {
-    font-size: 24px;
-  }
-
-  .lblFooterApresentacaoTopicoTexto {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .divBodyApresentacaoFinalPai {
-    height: 1300px;
-  }
-
-  .divBodyApresentacaoFinalFilho {
-    height: 1150px;
-  }
-
-  .divImgGrafico img {
-    width: 340px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .divBodyApresentacaoPai {
-    height: 1100px;
-    justify-content: space-between;
-  }
-
-  .divlblBodyApresentacaoTitulo {
-    height: 400px;
+  .divBodyMensagemFilho {
+    width: 80%;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: start;
-    align-content: start;
   }
 
-  .divVideosPropagandaPai {
-    width: 400px;
-    height: 600px;
+  .divTexto {
+    width: 80%;
+    height: 144px;
     display: flex;
     justify-content: center;
+    align-items: end;
   }
 
-  .divButtonVoltarPai {
-    width: 100%;
-    height: 450px;
+  .divFormulario {
+    padding-top: 0;
+  }
+
+  .divFormulario {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-  }
-
-  .divButtonVoltarFilho {
+    align-items: center;
+    margin: 0;
+    height: 800px;
     width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
   }
 
-  .divVideosPropagandaFilho {
-    width: 250px;
-    height: 450px;
-    background-color: transparent;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    text-align: center;
+  .divBodyFormulario {
+    width: 72%;
+    height: 100px;
   }
 
-  .divBodyApresentacaoFinalPai {
-    height: 1400px;
-  }
-
-  .divBodyApresentacaoFinalFilho {
-    height: 1250px;
+  .divBodyFormulario input {
+    height: 30px;
+    width: 91%;
   }
 }
 
-@media screen and (max-width: 430px) {
-  .divlblBodyApresentacaoTitulo {
-    height: 540px;
-  }
-
-  .divBodyApresentacaoFilho {
-    height: 540px;
-  }
-
-  .divVideosPropagandaPai {
-    width: 400px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .divVideosPropagandaFilho {
-    width: 250px;
-    height: 450px;
-  }
-
-  .divBodyApresentacaoFinalPai {
-    height: 1600px;
-  }
-
-  .divBodyApresentacaoFinalFilho {
-    height: 1350px;
+@media screen and (max-width: 470px) {
+  .divHeaderEntreEmContatoPai {
+    height: 50vh;
   }
 }
 
-@media screen and (max-width: 410px) {
-  .divVideosPropagandaPai {
-    width: 400px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 470px) {
+  .divHeaderEntreEmContatoFilho {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .divBodyFormularioPai {
+    padding-top: 100px;
+    height: 980px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .divBodyFormularioPai {
+    padding-top: 140px;
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 184px) {
+  .divBodyFormularioPai {
+    padding-top: 120px;
+    height: 1020px;
   }
 }
