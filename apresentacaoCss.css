@@ -274,6 +274,10 @@ body {
   justify-content: center;
 }
 
+.divFooterTextoPrivacidadePai {
+  text-align: center;
+}
+
 i {
   padding: 10px;
   font-size: 40px;
