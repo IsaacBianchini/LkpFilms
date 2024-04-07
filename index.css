@@ -1,8 +1,12 @@
+html,
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .divHeaderPai {
@@ -35,9 +39,9 @@ body {
 }
 
 .divBodyApresentacaoPai {
-  background-color: #f6f6f4;
   width: 100%;
-  height: 90vh;
+  height: 870px;
+  background-color: #f6f6f4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,14 +49,15 @@ body {
 
 .divBodyApresentacaoFilho {
   width: 50%;
-  height: 45vh;
+  height: 400px;
   display: flex;
   justify-content: center;
 }
 
 .divVideosPropagandaPai {
   width: 40%;
-  height: 80vh;
+  width: 800px;
+  height: 800px;
   display: flex;
   justify-content: center;
 }
@@ -60,6 +65,7 @@ body {
 .divButtonVoltarPai {
   width: 100%;
   height: 75vh;
+  height: 700px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -86,8 +92,8 @@ body {
 }
 
 .divVideosPropagandaFilho {
-  width: 50%;
-  height: 75vh;
+  width: 400px;
+  height: 700px;
   background-color: transparent;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
@@ -119,23 +125,26 @@ body {
 .divFooterApresentacaoPai {
   background-color: rgb(36, 28, 21);
   width: 100%;
-  height: 60vh;
+  height: 520px;
   display: flex;
   justify-content: center;
 }
 
 .divFooterApresentacaoFilho {
-  width: 60%;
-  height: 60vh;
+  width: 1200px;
+  height: 520px;
   display: flex;
 }
 
 .divLblApresentacaoTitulo {
   width: 50%;
   height: 40vh;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .lblFooterApresentacaoTitulo {
@@ -192,7 +201,7 @@ body {
 .divBodyApresentacaoFinalPai {
   background-color: #fff;
   width: 100%;
-  height: 90vh;
+  height: 880px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,7 +209,7 @@ body {
 
 .divBodyApresentacaoFinalFilho {
   width: 100%;
-  height: 150vh;
+  height: 880px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -233,6 +242,8 @@ body {
 .divTextoGrafico {
   width: 50%;
   padding-top: 80px;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .lblBodyGraficoTitulo {
@@ -259,7 +270,7 @@ body {
 .divPrivacidade {
   padding-top: 10px;
   width: 100%;
-  height: 40vh;
+  height: 200px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -269,6 +280,7 @@ body {
 
 .divIconsRedeSocialPai {
   width: 100%;
+  height: 30px;
   display: flex;
   justify-content: center;
 }
@@ -282,6 +294,7 @@ body {
 .divTextoPrivacidadePai {
   display: flex;
   justify-content: center;
+  height: 140px;
 }
 
 .divTextoPrivacidadeFilho {
